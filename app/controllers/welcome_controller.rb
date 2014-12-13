@@ -6,6 +6,8 @@ class WelcomeController < ApplicationController
 
   def jason
   end
+  def jillian
+  end
   
   def teacher
   end
