@@ -12,4 +12,7 @@ class WelcomeController < ApplicationController
 
   def some_other_method
   end
+
+  def and_another
+  end
 end

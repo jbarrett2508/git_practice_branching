@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'bye' => 'welcome#bye'
   get 'jason' => 'welcome#jason'
   get 'other' => 'welcome#other'
+  get 'and_another' => 'welcome#and_another'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
