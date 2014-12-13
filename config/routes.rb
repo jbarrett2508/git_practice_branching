@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # Isn't ^^^^ cool?
   get 'andy' => 'welcome#andy'
   # Isn't ^^^^ cool?
+  get 'patrickh' => 'welcome#patrickh'
 
   get 'johnny' => 'welcome#johnny'
   # The priority is based upon order of creation: first created -> highest priority.
