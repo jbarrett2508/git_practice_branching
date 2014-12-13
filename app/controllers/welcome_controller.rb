@@ -10,6 +10,10 @@ class WelcomeController < ApplicationController
   def teacher
   end
 
+  def andy
+
+  end
+
   def some_other_method
   end
 
