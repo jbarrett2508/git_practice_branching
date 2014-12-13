@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'other' => 'welcome#other'
   get 'and_another' => 'welcome#and_another'
 
+  get 'johnny' => 'welcome#johnny'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

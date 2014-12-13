@@ -15,4 +15,8 @@ class WelcomeController < ApplicationController
 
   def and_another
   end
+
+  def johnny
+
+  end
 end
