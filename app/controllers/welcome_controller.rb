@@ -2,6 +2,9 @@ class WelcomeController < ApplicationController
   def index
   end
   def bye
+
+  def judith
+
   end
 
   def jason
