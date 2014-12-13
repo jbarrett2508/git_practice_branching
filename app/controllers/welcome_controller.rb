@@ -9,4 +9,7 @@ class WelcomeController < ApplicationController
   
   def teacher
   end
+
+  def some_other_method
+  end
 end
