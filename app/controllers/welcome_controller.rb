@@ -3,4 +3,7 @@ class WelcomeController < ApplicationController
   end
   def bye
   end
+
+  def jason
+  end
 end
