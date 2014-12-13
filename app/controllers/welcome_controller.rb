@@ -28,4 +28,6 @@ class WelcomeController < ApplicationController
   def patrickh
     
   end
+  def patrickc
+  end
 end
