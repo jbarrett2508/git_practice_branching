@@ -2,11 +2,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'bye' => 'welcome#bye'
   get 'jason' => 'welcome#jason'
-  get 'other' => 'welcome#other'
-  get 'and_another' => 'welcome#and_another'
-  get 'jillian' => 'welcome#jillian'
-  # Isn't ^^^^ cool?
-  get 'andy' => 'welcome#andy'
+  get 'judith' => 'welcome#judith'
   # Isn't ^^^^ cool?
   get 'patrickh' => 'welcome#patrickh'
   # Isn't ^^^^ cool?
@@ -18,8 +14,6 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-
-  get '/judith' => 'welcome#judith'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
